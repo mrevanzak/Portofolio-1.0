@@ -9,83 +9,80 @@
     <script src="https://kit.fontawesome.com/4e8c7ab9c4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
         <div class="gradient-border"></div>
         <div class="navbar-content">
-            <div class="navbar-menu">
-                <ul class="navbar-list">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#profile">Profile</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#project">Project</a></li>
-                </ul>
-            </div>
             <div class="navbar-logo">
                 <a href="#home" class="navbar-logo">ReV</a>
+            </div>
+            <div class="navbar-menu">
+                <ul class="navbar-list">
+                    <li><a href="#welcome-section">Home</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+            <div class="navbar-mobile">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </nav>
     <main>
-        <section id="home">
-            <div class="home-container">
-                <div class="hello">
-                    <b>
-                        <div class="innerHello">
-                            Hello!<br /> 
-                            Bonjour!<br />
-                            Salve!<br />
-                            こんにちは!<br />
-                            안녕하세요!
-                        </div>
-                    </b>
-                    <p>You can call me <span>Revan</span></p>
-                </div>
-                <div class="desc">
-                    <p>I'm an Undergraduate Student at Institut Teknologi Sepuluh Nopember</p>
-                    <p>Currently interested in competitive programming and front-end</p>
-                </div>
-                <div class="more">
-                    <a href="#profile">
-                        <span>Know more</span>
-                    </a>
-                </div>
+        <section id="welcome-section" class="center">
+            <div class="hello">
+                <b>
+                    <div class="innerHello">
+                        Hello!<br /> 
+                        Bonjour!<br />
+                        Salve!<br />
+                        こんにちは!<br />
+                        안녕하세요!
+                    </div>
+                </b>
+                <h1>You can call me <span>Revan</span></h1>
             </div>
+            <div class="desc center">
+                <p style="text-align: center;">I'm an Undergraduate Student at Institut Teknologi Sepuluh Nopember <br> Currently interested in competitive programming and front-end.</p>
+            </div>
+            <div class="more">
+                <a href="#profile">
+                    <span>Know more</span>
+                </a>
+           </div>
         </section>
-        <section id="profile">
+        <section id="profile" class="center">
             <div class="profile-container">
-                <div class="header-container">
-                    <div class="foto">
-                        <img src="img/foto2.png" alt="Foto Profile" class="foto-profil">
-                    </div>
-                    <div class="profile-header">
-                        <h1>About Me</h1>
-                    </div>
-                </div>
-                <div class="profile-card">
-                    <div class="desc">
-                        <p>My name is Mochamad Revanza Kurniawan. 
-                        I was born in Bandung on 10th June 2002 but lived in Bekasi. 
-                        I'm an ISTP so i'm on introvert side. 
-                        People with ISTP personalities enjoy having time to think alone and are fiercely independent. 
-                        But i can work either individually or in a group.
-                        ISTPs also love action, new experiences, hands-on activities, and the freedom to work at their own pace. 
-                        I didn't have much experience right now but i'm willing to learn and try</p>
-                    </div>
-                </div>
-                <div class="social">
-                    <a href="https://www.instagram.com/rev_1006/">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://www.facebook.com/RealReV.ID/">
-                        <i class="fab fa-facebook" style="margin: 0 20px;"></i>
-                    </a>
-                    <a href="kedin.com/in/mochamad-revanza-kurniawan-6593711a1/">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
+                <img src="img/foto2.png" alt="Foto Profile" class="foto-profil">
+                <div class="desc">
+                    <p>My name is Mochamad Revanza Kurniawan. 
+                    I was born in Bandung on 10th June 2002 but lived in Bekasi. 
+                    I'm an ISTP so i'm on introvert side. 
+                    People with ISTP personalities enjoy having time to think alone and are fiercely independent. 
+                    But i can work either individually or in a group.
+                    ISTPs also love action, new experiences, hands-on activities, and the freedom to work at their own pace. 
+                    I didn't have much experience right now but i'm willing to learn and try</p>
                 </div>
             </div>
+            <div class="profile-link">
+                <a href="https://www.instagram.com/rev_1006/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/RealReV.ID/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mochamad-revanza-kurniawan-6593711a1/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/mrevanzak/" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
         </section>
-        <div class="next">
+        <div class="next center">
             <a href="#resume" class='fa fa-angle-down'></a>
         </div>
         <section id="resume">
@@ -135,17 +132,13 @@
                         <span>2021</span>
                         <h3>Public relation at TCircus 2021</h3>
                     </div>
-                    <div class="content">
-                        <span>2021</span>
-                        <h3>Discipline Committee at PKTI-TD 2021</h3>
-                    </div>
                 </div>
             </div>
             <div class="skills">
                 <div class="resume-header">
                     <h1>SKills</h1>
                 </div>
-                <div class="skills-container">
+                <div class="skill-container">
                     <div class="skill-circle">
                         <div class="circle">
                             <div class="icons8-cpp"></div>
@@ -193,21 +186,28 @@
                 </div>
             </div>
         </section>
-        <div class="next">
-            <a href="#project" class='fa fa-angle-down'></a>
+        <div class="next center">
+            <a href="#projects" class='fa fa-angle-down'></a>
         </div>
-        <section id="project">
-            <div class="project-header">
+        <section id="projects">
+            <div class="projects-header">
                 <h1>Project</h1>
             </div>
-            <div class="project-container">
-                <div class="project-content">
-                    <img src="img/sneaker youth1.png" alt="sneaker youth event">
+            <div class="projects-tile">
+                <div class="projects-content">
+                    <a href=""><img src="img/sneaker youth1.png" alt="sneaker youth event"></a>
                 </div>
                 <h3>Poster designer for Youth Sneakers Event 2018</h3>
             </div>
         </section>
     </main>
-    
+    <script>
+        const menuToggle = document.querySelector('.navbar-mobile');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
 </body>
 </html>
