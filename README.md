@@ -1,2 +1,2 @@
 # MY CV WEB
-https://mrevanzak.github.io/FP-LBE-ALPRO-2021/
+https://mrevanzak.github.io/Portofolio-1.0/
